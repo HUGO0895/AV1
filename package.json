@@ -1,0 +1,29 @@
+{
+  "name": "av1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HUGO0895/AV1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HUGO0895/AV1/issues"
+  },
+  "homepage": "https://github.com/HUGO0895/AV1#readme",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "inquirer": "^13.3.2",
+    "ora": "^9.3.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3"
+  }
+}
