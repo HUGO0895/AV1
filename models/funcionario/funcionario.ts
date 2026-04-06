@@ -1,5 +1,5 @@
 import NivelPermissao from "./nivelPermissao"
-
+import { createHash } from 'crypto';
 export default class Funcionario {
     private static contador: number = 0
     
@@ -13,7 +13,7 @@ export default class Funcionario {
 
     constructor(nome: string, telefone: string, endereco: string, usuario: string, senha: string, nivelPermissao: NivelPermissao) {
         Funcionario.contador++
-        this.id = Funcionario.contador.toString()
+        this.id = createHash('sha256').update(Funcionario.contador.toString()).digest('hex')
         
         this.nome = nome
         this.telefone = telefone

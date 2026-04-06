@@ -22,12 +22,12 @@ export default class AppAEro {
     await this.aeroService.create(aeronave);
   }
   public async deletar() {
-    const id = this.entrada.receberTexto("Digite um id valido:");
+    const id = this.entrada.receberTexto("Digite um ID de AERONAVE valido:");
     await this.aeroService.del(id);
   }
   public async atualizar() {
-    console.log("Digite algo se quiser atualizar ou de enter para n atualizar");
-    const id = this.entrada.receberTexto("Digite um ID valido para busca:");
+    console.log("Digite algo se quiser atualizar ou aperte Enter para não atualizar");
+    const id = this.entrada.receberTexto("Digite um ID valido para busca:"); //CARNEIRO BONDOSO
     const modelo = this.entrada.receberTexto("Modelo:");
     const tipo_temp = this.entrada
       .receberTexto("Tipo(Militar ou Comercial):")
@@ -45,10 +45,5 @@ export default class AppAEro {
   public async Ver() {
     await this.aeroService.read();
   }
-  public async  GerarRelatorio(){
-    const id=this.entrada.receberTexto("Digite um id de aeronave valido")
-    const dataentrega=this.entrada.receberTexto("Digite uma data de entrega no formato dia/mes/ano:")
-    const cliente=this.entrada.receberTexto("Digite um cliente:")
-    await this.aeroService.gerarRelatorio(id,dataentrega,cliente)
-  }
+ 
 }

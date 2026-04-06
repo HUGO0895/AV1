@@ -9,7 +9,7 @@ export default class AppEtapa {
   private entrada: Entrada = new Entrada();
   private etapaService: EtapaService = new EtapaService();
   public async adicionar() {
-    const id = this.entrada.receberTexto("Digite um ID:");
+    const id = this.entrada.receberTexto("Digite um ID de AERONAVE:");  // KOKO
     const nome = this.entrada.receberTexto("Nome:");
     const prazo=this.entrada.receberTexto("Prazo(DIA/MÊS/Ano):")
     const etapa= new Etapas(nome,prazo)

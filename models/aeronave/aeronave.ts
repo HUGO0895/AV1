@@ -7,7 +7,7 @@ export default class Aeronave {
   private id: string;
   public modelo: string;
   public tipo: TipoAeronave;
-  public capacidade: number;
+  public capacidade: number; 
   public alcance: number;
   public pecas: Array<Pecas>;
   public etapas: Array<Etapas>;
@@ -53,7 +53,6 @@ export default class Aeronave {
     });
   }
 
-  public salvar(): void {}
   private mostrarPecas(): string {
     let nomes_Pecas = "";
     for (let x of this.pecas) {

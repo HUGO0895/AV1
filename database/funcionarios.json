@@ -1,29 +1,29 @@
 [
       {
-            "id": "1",
-            "nome": "Hugo Leonardo",
-            "telefone": "(12) 98122-4567",
-            "endereco": "Rua Paraibuna, 1500, Jardim São Dimas, SJC - SP",
-            "usuario": "admin",
+            "id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+            "nome": "Hugo",
+            "telefone": "(12)991710210",
+            "endereco": "RUA B",
+            "usuario": "Boss",
             "senha": "1",
             "nivelPermissao": "ADMINISTRADOR"
       },
       {
-            "id": "2",
-            "nome": "Ricardo Engenharia",
-            "telefone": "(12) 99765-4321",
-            "endereco": "Av. Nelson d'Ávila, 120, Centro, SJC - SP",
-            "usuario": "ricardo.eng",
-            "senha": "123",
+            "id": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+            "nome": "Juan",
+            "telefone": "(12)99876502",
+            "endereco": "RUA A",
+            "usuario": "adm2",
+            "senha": "2",
             "nivelPermissao": "ENGENHEIRO"
       },
       {
-            "id": "3",
-            "nome": "Mateus Operador",
-            "telefone": "(12) 98822-1100",
-            "endereco": "Rua das Palmeiras, 45, Vila Industrial, SJC - SP",
-            "usuario": "mateus.op",
-            "senha": "123",
+            "id": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+            "nome": "RAIMUNDO",
+            "telefone": "(12)985847578",
+            "endereco": "RUA C",
+            "usuario": "Lindo",
+            "senha": "3",
             "nivelPermissao": "OPERADOR"
       }
 ]

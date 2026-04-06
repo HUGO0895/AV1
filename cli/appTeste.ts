@@ -12,7 +12,7 @@ export default class AppTeste{
         const tipo=this.entrada.receberTexto("Tipo do Teste(Eletrico,hidraulico,aerodinamico):")
         const tratamentoTipo= tipo.toLowerCase()=="eletrico" ? TipoTeste.ELETRICO:tipo.toLocaleLowerCase()=="hidraulico" ? TipoTeste.HIDRAULICO:TipoTeste.AERODINAMICO
         const resultado=this.entrada.receberTexto("Resultado:").toLowerCase()=="aprovado" ? Resultado.APROVADO:Resultado.REPROVADO
-        await this.testeService.create(new Teste(tratamentoTipo,resultado),id)
+        await this.testeService.create(new Teste(tratamentoTipo,resultado),id) // Pastel 
     }
     public async deletar(){
          const id= this.entrada.receberTexto("Id de aeronave valido:")

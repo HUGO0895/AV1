@@ -1,82 +1,116 @@
 [
-  {
-    "id": "TR-200",
-    "tipo": "COMERCIAL",
-    "modelo": "Boeing 737-Max",
-    "capacidade": 180,
-    "alcance": 6500,
-    "pecas": [
       {
-        "id": "P-01",
-        "nome": "Turbina CFM",
-        "fornecedor":"Hugo AERO",
-        "status": "PRONTA",
-        "tipo":"NACIONAL"
+            "id": "TR-200",
+            "tipo": "COMERCIAL",
+            "modelo": "Boeing 737-Max",
+            "capacidade": 180,
+            "alcance": 6500,
+            "pecas": [
+                  {
+                        "id": "P-01",
+                        "nome": "Turbina CFM",
+                        "fornecedor": "Hugo AERO",
+                        "status": "PRONTA",
+                        "tipo": "NACIONAL"
+                  },
+                  {
+                        "id": "P-02",
+                        "nome": "Trem de Pouso",
+                        "fornecedor": "Hugo AERO",
+                        "status": "PRONTA",
+                        "tipo": "NACIONAL"
+                  }
+            ],
+            "etapas": [
+                  {
+                        "nome": "Limpando Porta",
+                        "prazo": "09/08/2009",
+                        "status": "CONCLUIDA",
+                        "funcionarios": [
+                              {
+                                    "id": "1",
+                                    "nome": "Hugo Leonardo",
+                                    "telefone": "(12) 98122-4567",
+                                    "endereco": "Rua Paraibuna, 1500, SJC",
+                                    "usuario": "admin",
+                                    "senha": "1",
+                                    "nivelPermissao": "ADMINISTRADOR"
+                              },
+                              {
+                                    "id": "2",
+                                    "nome": "Juliana",
+                                    "telefone": "048043",
+                                    "endereco": "3443443",
+                                    "usuario": "juju",
+                                    "senha": "123",
+                                    "nivelPermissao": "OPERADOR"
+                              }
+                        ]
+                  },
+                  {
+                        "nome": "Montagem da Asa",
+                        "prazo": "15/05/2026",
+                        "status": "CONCLUIDA",
+                        "funcionarios": [
+                              {
+                                    "id": "3",
+                                    "nome": "Mateus Operador",
+                                    "telefone": "(12) 98822-1100",
+                                    "endereco": "Rua das Palmeiras, 45, SJC",
+                                    "usuario": "mateus.op",
+                                    "senha": "123",
+                                    "nivelPermissao": "OPERADOR"
+                              }
+                        ]
+                  }
+            ],
+            "testes": [
+                  {
+                        "tipo": "ELETRICO",
+                        "resultado": "APROVADO"
+                  },
+                  {
+                        "tipo": "HIDRAULICO",
+                        "resultado": "APROVADO"
+                  },
+                  {
+                        "tipo": "AERODINAMICO",
+                        "resultado": "APROVADO"
+                  }
+            ]
       },
       {
-        "id": "P-02",
-        "nome": "Trem de Pouso",
-         "fornecedor":"Hugo AERO",
-        "status": "PRONTA",
-        "tipo":"NACIONAL"
+            "id": "TR-333",
+            "tipo": "MILITAR",
+            "modelo": "Joao",
+            "pecas": [
+                  {
+                        "name": "5454",
+                        "tipo": "IMPORTADA",
+                        "fornecedor": "joao",
+                        "status": "PRONTA"
+                  }
+            ],
+            "etapas": [],
+            "testes": [],
+            "capacidade": 20,
+            "alcance": 40
+      },
+      {
+            "id": "Lixo-2",
+            "tipo": "MILITAR",
+            "modelo": "modelo12",
+            "pecas": [
+                  {
+                        "name": "jjre",
+                        "tipo": "NACIONAL",
+                        "fornecedor": "Joao",
+                        "status": "PRONTA"
+                  }
+            ],
+            "etapas": [],
+            "testes": [],
+            "capacidade": 564,
+            "alcance": 96
       }
-    ],
-    "etapas": [
-      {
-        "nome": "Limpando Porta",
-        "prazo": "09/08/2009",
-        "status": "CONCLUIDA",
-        "funcionarios": [
-          {
-            "id": "1",
-            "nome": "Hugo Leonardo",
-            "telefone": "(12) 98122-4567",
-            "endereco": "Rua Paraibuna, 1500, SJC",
-            "usuario": "admin",
-            "senha": "1",
-            "nivelPermissao": "ADMINISTRADOR"
-          },
-          {
-            "id": "2",
-            "nome": "Juliana",
-            "telefone": "048043",
-            "endereco": "3443443",
-            "usuario": "juju",
-            "senha": "123",
-            "nivelPermissao": "OPERADOR"
-          }
-        ]
-      },
-      {
-        "nome": "Montagem da Asa",
-        "prazo": "15/05/2026",
-        "status": "CONCLUIDA",
-        "funcionarios": [
-          {
-            "id": "3",
-            "nome": "Mateus Operador",
-            "telefone": "(12) 98822-1100",
-            "endereco": "Rua das Palmeiras, 45, SJC",
-            "usuario": "mateus.op",
-            "senha": "123",
-            "nivelPermissao": "OPERADOR"
-          }
-        ]
-      }
-    ],
-    "testes": [
-      {
-        "tipo": "ELETRICO",
-        "resultado": "APROVADO"
-      },
-      {
-        "tipo": "HIDRAULICO",
-        "resultado": "APROVADO"
-      },
-      {
-        "tipo": "AERODINAMICO",
-        "resultado": "APROVADO"
-      }
-    ]
-  }
 ]

@@ -7,7 +7,7 @@ export default class AppPeca {
   private entrada: Entrada = new Entrada();
   private pecaService: PecaService = new PecaService();
   public async adicionar() {
-    const id = this.entrada.receberTexto("Digite um ID:");
+    const id = this.entrada.receberTexto("Digite um ID de AERONAVE valido::");
     const nome = this.entrada.receberTexto("Nome:");
     const tipo =
       this.entrada
@@ -45,7 +45,7 @@ export default class AppPeca {
     );
     const status_temp = this.entrada
       .receberTexto("Status(EM PRODIÇÃO,EM TRANSPORTE,PRONTA):")
-      .toLowerCase();
+      .toLowerCase(); // Neymar>>MESSI
     const status =
       status_temp == "em produção"
         ? StatusPecas.EM_PRODUCAO

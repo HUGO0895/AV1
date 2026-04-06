@@ -7,6 +7,8 @@ import AppPeca from "./cli/appPeca";
 import AppEtapa from "./cli/appEtapa";
 import AppTeste from "./cli/appTeste";
 import Funcionario from "./models/funcionario/funcionario";
+import Relatorio from "./models/relatorios/relatorio";
+import AppRelatorio from "./cli/appRelatorio";
 class Aerocode {
   private entrada = new Entrada();
   private apAero: AppAEro = new AppAEro();
@@ -14,6 +16,7 @@ class Aerocode {
   private appPeca: AppPeca = new AppPeca();
   private appEtapa:AppEtapa=new AppEtapa()
   private appTeste:AppTeste= new AppTeste()
+  private relatorio:AppRelatorio= new AppRelatorio()
   public interfaceInicial() {
     console.log("Aerocode CLI");
     console.log("1- Fazer Login");
@@ -77,7 +80,7 @@ class Aerocode {
         break;
       case 6:
         try{
-        await this.apAero.GerarRelatorio()}catch(erro){console.log(erro.message)};
+        await this.relatorio.GerarRelatorio()}catch(erro){console.log(erro.message)};
         break;
     }
     await this.interfaceADMIN(func);
@@ -279,7 +282,7 @@ await this.GerenciarEtapas(func)
       case 3:
         console.log()
         try{
-        await this.apAero.GerarRelatorio()}catch(erro){console.log(erro.message)}
+        await this.relatorio.GerarRelatorio()}catch(erro){console.log(erro.message)}
         break;
     }
     await this.interfaceENGENHEIRO(func);

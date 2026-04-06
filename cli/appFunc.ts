@@ -12,10 +12,10 @@ export default class AppFunc {
     const telefone = this.entrada.receberTexto("Telefone:");
     const endereco = this.entrada.receberTexto("Endereço:");
     const usuario = this.entrada.receberTexto("User Name:");
-    const senha = this.entrada.receberTexto("Senha");
+    const senha = this.entrada.receberTexto("Senha:");
     let nivelPermissao: any = this.entrada
       .receberTexto("Nivel de Permissão:")
-      .toLowerCase();
+      .toLowerCase();  // LIndo ARTESÃO
     switch (nivelPermissao) {
       case "operador":
         nivelPermissao = NivelPermissao.OPERADOR;
@@ -42,12 +42,13 @@ export default class AppFunc {
   }
 
   public async remover() {
-    const id = this.entrada.receberTexto("Digite um ID valido:");
+    const id = this.entrada.receberTexto("Digite um ID de Funcionarios valido:");
     await this.funcServ.del(id);
   }
 
   public async put() {
-    const id = this.entrada.receberTexto("Digite um ID valido");
+     console.log("Digite algo se quiser atualizar ou aperte Enter para não atualizar");
+    const id = this.entrada.receberTexto("Digite um ID valido:");
     const nome = this.entrada.receberTexto("Nome:");
     const usuario = this.entrada.receberTexto("Usuario:");
     const telefone = this.entrada.receberTexto("Telefone:");

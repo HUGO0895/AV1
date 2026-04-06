@@ -5,10 +5,10 @@ export default class Etapas{
     public prazo:string
     public status:StatusEtapas
     public funcionarios:Array<Funcionario>
-    constructor(nome:string,prazo:string){
+    constructor(nome:string,prazo:string,status?:StatusEtapas){
         this.nome=nome
         this.prazo=prazo
-        this.status=StatusEtapas.Pendente
+        this.status=status ? status:StatusEtapas.Pendente
         this.funcionarios=new Array<Funcionario>()
 
     }
