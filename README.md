@@ -35,7 +35,8 @@
 
 ### COMO  RODAR?
 ```
-//EM ./AV1
+git clone git@github.com:HUGO0895/AV1.git
+cd AV1
 npm i
 npx ts-node app.ts
 ```
