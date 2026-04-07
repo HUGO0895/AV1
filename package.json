@@ -21,7 +21,8 @@
     "@types/node": "^25.5.0",
     "inquirer": "^13.3.2",
     "ora": "^9.3.0",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/prompt-sync": "^4.2.3"
