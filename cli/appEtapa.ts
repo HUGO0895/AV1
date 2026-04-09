@@ -48,7 +48,7 @@ export default class AppEtapa {
   public async addF(){
     let user:Funcionario=undefined;
     const usuario=this.entrada.receberTexto("Digite um Usuarios valido:")
-    const id=this.entrada.receberTexto("Digite um id valido:")
+    const id=this.entrada.receberTexto("Digite um ID de AERONAVE valido:")
     const nome=this.entrada.receberTexto("Nome da Etapa:")
       const funcionarioS= await fs.readFile(path.resolve(__dirname,'..','./database','funcionarios.json'),'utf-8');
              const  funcionarioArray=JSON.parse(funcionarioS);

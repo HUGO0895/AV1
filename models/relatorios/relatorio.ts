@@ -52,7 +52,7 @@ export default class Relatorio{
     "=".repeat(27)+'\n'+
     "AERONAVE APROVADA"
    await fs.writeFile(
-      path.resolve(__dirname, "..",'..', "./database", "./relatorios",aeronave.getId+new Date()+"RELATORIO.txt"),
+      path.resolve(__dirname, "..",'..', "database", "relatorios",aeronave.getId+"-"+Date.now().toString()+".txt"),
       stringParaTxt,
       "utf-8",
     );
