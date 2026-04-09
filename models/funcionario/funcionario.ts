@@ -1,5 +1,5 @@
 import NivelPermissao from "./nivelPermissao"
-import { createHash } from 'crypto';
+import { createHash,randomBytes } from 'crypto';
 export default class Funcionario {
     private static contador: number = 0
     
@@ -10,10 +10,10 @@ export default class Funcionario {
     public usuario: string
     public senha: string
     public nivelPermissao: NivelPermissao
-
+   private static salt:string = randomBytes(16).toString('hex');
     constructor(nome: string, telefone: string, endereco: string, usuario: string, senha: string, nivelPermissao: NivelPermissao) {
         Funcionario.contador++
-        this.id = createHash('sha256').update(Funcionario.contador.toString()).digest('hex')
+        this.id = createHash('sha256').update(Funcionario.contador.toString()+Funcionario.salt).digest('hex')
         
         this.nome = nome
         this.telefone = telefone

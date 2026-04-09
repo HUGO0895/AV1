@@ -1,0 +1,31 @@
+AEROCODE- RELATORIO DE ENTREGA
+
+Data de Emissão: 09/04/2026
+Cliente: EU
+Data de Entrega: 040906
+===========================
+DADOS DA AERONAVE
+-----------------
+Código: TR-200
+Modelo: Boeing 737-Max
+Tipo: COMERCIAL
+Capacidade: 180
+
+PEÇAS UTILIZADAS
+----------------
+Turbina CFM (Fornecedor: Hugo AERO, Tipo: NACIONAL)
+Trem de Pouso (Fornecedor: Hugo AERO, Tipo: NACIONAL)
+
+ETAPA DE PRODUÇÃO
+-----------------
+Limpando Porta Status: CONCLUIDA
+Montagem da Asa Status: CONCLUIDA
+Montagem do Trem de Pouso Status: CONCLUIDA
+
+Resultado dos Testes
+--------------------
+Tipo: ELETRICO Resultado: APROVADO
+Tipo: HIDRAULICO Resultado: APROVADO
+Tipo: AERODINAMICO Resultado: APROVADO
+===========================
+AERONAVE APROVADA

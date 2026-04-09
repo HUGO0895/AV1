@@ -1,23 +1,23 @@
 [
       {
             "id": "TR-200",
-            "tipo": "COMERCIAL",
-            "modelo": "Boeing 737-Max",
-            "capacidade": 180,
-            "alcance": 6500,
+            "tipo": "MILITAR",
+            "modelo": "Boeing 738-Max",
+            "capacidade": 190,
+            "alcance": 94939,
             "pecas": [
                   {
                         "id": "P-01",
-                        "nome": "Turbina CFM",
+                        "name": "Turbina CFM",
                         "fornecedor": "Hugo AERO",
                         "status": "PRONTA",
                         "tipo": "NACIONAL"
                   },
                   {
                         "id": "P-02",
-                        "nome": "Trem de Pouso",
+                        "name": "Trem de Pouso",
                         "fornecedor": "Hugo AERO",
-                        "status": "PRONTA",
+                        "status": "EM PRODUÇÃO",
                         "tipo": "NACIONAL"
                   }
             ],
@@ -111,22 +111,5 @@
             "testes": [],
             "capacidade": 20,
             "alcance": 40
-      },
-      {
-            "id": "Lixo-2",
-            "tipo": "MILITAR",
-            "modelo": "modelo12",
-            "pecas": [
-                  {
-                        "name": "jjre",
-                        "tipo": "NACIONAL",
-                        "fornecedor": "Joao",
-                        "status": "PRONTA"
-                  }
-            ],
-            "etapas": [],
-            "testes": [],
-            "capacidade": 564,
-            "alcance": 96
       }
 ]
