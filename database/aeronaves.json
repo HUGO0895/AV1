@@ -66,7 +66,7 @@
                   {
                         "nome": "Montagem do Trem de Pouso",
                         "prazo": "09/09/2009",
-                        "status": "PENDENTE",
+                        "status": "CONCLUIDA",
                         "funcionarios": [
                               {
                                     "id": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
