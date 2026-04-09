@@ -33,7 +33,7 @@
 
 **Aerocode** é uma aplicação de linha de comando (CLI) desenvolvida em TypeScript para gerenciamento de aeronaves em um contexto de produção aeronáutica. O sistema permite controlar o ciclo de vida de uma aeronave — desde o cadastro até a geração de relatórios — passando por peças, etapas de produção e testes de validação.
 
-### COMO  RODAR?
+### COMO  RODAR?(Esse projeto usa a versão v22.22.1 do NODEJS)
 ```
 git clone git@github.com:HUGO0895/AV1.git
 cd AV1
